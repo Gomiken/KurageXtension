@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "KurageXtension",
+  "description": "KurageApp Twitch Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "start.html",
+    "default_icon": "medusa_ico.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/jquery.js", "scripts/chat.js"],
+      "matches": [
+        "https://www.twitch.tv/nitteart",
+        "https://www.twitch.tv/gomiken"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["medusa_ico.png"],
+      "matches": [
+        "https://www.twitch.tv/*"
+      ]
+    }
+  ]
+}
