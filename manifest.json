@@ -4,7 +4,7 @@
   "description": "KurageApp Twitch Extension",
   "version": "1.0",
   "action": {
-    "default_popup": "start.html",
+    "default_popup": "html/config.html",
     "default_icon": "medusa_ico.png"
   },
   "content_scripts": [
@@ -23,5 +23,11 @@
         "https://www.twitch.tv/*"
       ]
     }
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.lasercatgames.com/*"
   ]
 }
