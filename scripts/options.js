@@ -1,3 +1,4 @@
+//Kurage API Stuff
 const headers = {
     "Authorization": "Basic cHVibGljOkYvLDtgNTM4XzXCo3ZfQ1YuS1N2Nk1RWDwpcDFPQlg1Zw==",
 };
