@@ -13,10 +13,14 @@ function search(name) {
 
     setError(false, null);
 
-    let data = {
+    getKuragePage({
         filter: {name: name},
         page: 0
-    };
+    });
+}
+
+async function getKuragePage(data) {
+    let headers = await chrome.storage.sync.get(['api_headers']);
 
     $.ajax({
         url: "https://api.lasercatgames.com/api/kurage/page",
@@ -24,16 +28,12 @@ function search(name) {
         contentType: "application/json",
         data: JSON.stringify(data),
         dataType: "json",
-        headers: getHeaders(),
+        headers: headers,
         success: showResults,
         error: function(xhr, status, error) {
-           setError(true, "Error occurred: " + error);
+            setError(true, "Error occurred: " + error);
         }
     });
-}
-
-async function getHeaders() {
-    return await chrome.storage.sync.get(['api_headers']);
 }
 
 function setError(show, message) {
