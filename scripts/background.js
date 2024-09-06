@@ -1,3 +1,9 @@
+// KurageApp Stuff
+const KURAGE_API_HEADERS = {
+    "Authorization": "Basic cHVibGljOkYvLDtgNTM4XzXCo3ZfQ1YuS1N2Nk1RWDwpcDFPQlg1Zw==",
+};
+chrome.storage.sync.set({ "api_headers": KURAGE_API_HEADERS });
+
 // Twitch Stuff
 const CLIENT_ID = '1ju3ddgggyg1kwxh2oevr8q3xj4yt4';
 const REDIRECT_URI = 'https://imlkpcjeobgjpindbbnfkghgjmgpbcbh.chromiumapp.org/';
@@ -25,7 +31,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
                 let userInfo = parseJwt(idToken);
 
-                chrome.storage.sync.set({ "user_uid": userInfo.sub }, function() {});
+                chrome.storage.sync.set({ "user_uid": userInfo.sub });
                 console.log("KurageXtension - User uid saved.");
 
                 sendResponse({ message: 'success' });

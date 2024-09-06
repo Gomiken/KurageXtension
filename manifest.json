@@ -21,7 +21,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["medusa_ico.png"],
+      "resources": ["medusa_ico.png", "html/template/*"],
       "matches": [
         "https://www.twitch.tv/*"
       ]

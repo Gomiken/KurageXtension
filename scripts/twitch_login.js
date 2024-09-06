@@ -1,26 +1,21 @@
-const headers = {
-    "Authorization": "Basic cHVibGljOkYvLDtgNTM4XzXCo3ZfQ1YuS1N2Nk1RWDwpcDFPQlg1Zw==",
-};
-
 $(window).on('load', function() {
     $('#login').on('click', function () {
         $(this).attr('disabled', 'disabled');
         chrome.runtime.sendMessage({ message: 'login' }, function (response) {});
     });
 
-    $('#test').on('click', function () {
-        chrome.storage.sync.get(["user_uid"], function (item) {
-            let user_uid = item.user_uid;
-            $.ajax({
-                url: `https://api.lasercatgames.com/api/kurage/uid/${user_uid}`,
-                type: "GET",
-                dataType: "json",
-                headers: headers,
-                success: function (response) {console.log(response)},
-                error: function(xhr, status, error) {
-                    setError(true, "Error occurred: " + error);
-                }
-            });
-        });
-    });
+    $('#test').on('click', getUserKurage);
 });
+
+async function getUserKurage() {
+    let uid = await chrome.storage.sync.get(['user_uid']);
+    let headers = await chrome.storage.sync.get(['api_headers']);
+
+    $.ajax({
+        url: `https://api.lasercatgames.com/api/kurage/uid/${uid.user_uid}`,
+        type: "GET",
+        dataType: "json",
+        headers: headers.api_headers,
+        success: function (response) {console.log(response)},
+    });
+}

@@ -1,8 +1,3 @@
-//Kurage API Stuff
-const headers = {
-    "Authorization": "Basic cHVibGljOkYvLDtgNTM4XzXCo3ZfQ1YuS1N2Nk1RWDwpcDFPQlg1Zw==",
-};
-
 $(window).on('load', function() {
     $('#search').on('click', function () {
         const name = $("#user").val();
@@ -29,12 +24,16 @@ function search(name) {
         contentType: "application/json",
         data: JSON.stringify(data),
         dataType: "json",
-        headers: headers,
+        headers: getHeaders(),
         success: showResults,
         error: function(xhr, status, error) {
            setError(true, "Error occurred: " + error);
         }
     });
+}
+
+async function getHeaders() {
+    return await chrome.storage.sync.get(['api_headers']);
 }
 
 function setError(show, message) {
