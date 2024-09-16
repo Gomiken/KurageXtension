@@ -5,6 +5,9 @@ $(window).on('load', function() {
     });
 
     $('#test').on('click', getUserKurage);
+    $('#view-skin').on('click', function () {
+        window.location.href="../html/my-skin.html";
+    })
 });
 
 async function getUserKurage() {

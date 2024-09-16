@@ -1,0 +1,866 @@
+{
+  "my_skin_title": {
+    "message": "Mi skin"
+  },
+  "element_0": {
+    "message": "Neutral"
+  },
+  "element_10": {
+    "message": "Tormenta"
+  },
+  "element_11": {
+    "message": "Piedra"
+  },
+  "element_12": {
+    "message": "Rayo"
+  },
+  "element_13": {
+    "message": "Corrupci\\u00f3n"
+  },
+  "element_1": {
+    "message": "Fuego"
+  },
+  "element_2": {
+    "message": "Agua"
+  },
+  "element_3": {
+    "message": "Flora"
+  },
+  "element_4": {
+    "message": "Sangre"
+  },
+  "element_5": {
+    "message": "Luz"
+  },
+  "element_6": {
+    "message": "Sombra"
+  },
+  "element_7": {
+    "message": "Amor"
+  },
+  "element_8": {
+    "message": "Sonido"
+  },
+  "element_9": {
+    "message": "Hielo"
+  },
+  "element_unknown": {
+    "message": "Desconocido"
+  },
+  "movement_a": {
+    "message": "A"
+  },
+  "movement_basic_heal_description": {
+    "message": "Sana 5 puntos con el poder de la voluntad"
+  },
+  "movement_basic_heal": {
+    "message": "Sanaci\\u00f3n b\\u00e1sica"
+  },
+  "movement_basic_description": {
+    "message": "Impacto contundente con el cuerpo realizando 50 de daño f\\u00edsico"
+  },
+  "movement_basic": {
+    "message": "Ataque b\\u00e1sico"
+  },
+  "movement_blaze_a_description": {
+    "message": "Realiza un tajo de fuego produciendo {0} de daño {1} {2}"
+  },
+  "movement_blaze_e_description": {
+    "message": "Genera un escudo de fuego que aumenta la Defensa {0} puntos"
+  },
+  "movement_blaze_i_description": {
+    "message": "Impacta de manera contundente produciendo {0} de daño {1} {2}"
+  },
+  "movement_blaze_o_description": {
+    "message": "Envuelve al objetivo en un torbellino de fuego que va generando daño en el tiempo: {0} {1} {2} de 1 a 10 veces"
+  },
+  "movement_blaze_u_description": {
+    "message": "Detona una explosi\\u00f3n de fuego produciendo {0} de daño {2} {5}. Penaliza el Ataque y Poder M\\u00e1gico del objetivo {1} puntos durante {6} segundos"
+  },
+  "movement_blaze_ultimate_description": {
+    "message": "Genera una mega explosi\\u00f3n de fuego de 1.000.000 de grados celsius produciendo {0} de daño {1} {2}"
+  },
+  "movement_blood_a_description": {
+    "message": "Deja caer una bola de pinchos produciendo {0} de daño {1} {2}"
+  },
+  "movement_blood_e_description": {
+    "message": "Genera un escudo de sangre m\\u00e1gica que aumenta la Defensa {0} puntos"
+  },
+  "movement_blood_i_description": {
+    "message": "Emite chorros de sangre que impactan al objetivo produciendo {0} de daño {2} {5}, adem\\u00e1s baja su Defensa y Resistencia M\\u00e1gica {1} puntos durante {6} segundos (acumulable)"
+  },
+  "movement_blood_o_description": {
+    "message": "Invoca sucesivas trampas de pinchos perforantes que van generando daño en el tiempo: {0} {1} {2} de 1 a 10 veces"
+  },
+  "movement_blood_u_description": {
+    "message": "Lanza proyectiles de sangre m\\u00e1gica produciendo {0} de daño {1} {2}"
+  },
+  "movement_blood_ultimate_description": {
+    "message": "Desencadena poderosos movimientos sangrientos que torturan al objetivo produciendo {0} de daño {1} {2}"
+  },
+  "movement_bloom_a_description": {
+    "message": "Corta con hojas afiladas produciendo {0} de daño {1} {2}"
+  },
+  "movement_bloom_e_description": {
+    "message": "Genera un escudo floral que aumenta Defensa y Resistencia m\\u00e1gica {0} puntos"
+  },
+  "movement_bloom_i_description": {
+    "message": "Bendice a un aliado con energ\\u00eda vital que le sana {0} {1} puntos peri\\u00f3dicamente (cada {2} segundos) 6 veces"
+  },
+  "movement_bloom_o_description": {
+    "message": "Envuelve a un aliado con una flor m\\u00e1gica que aumenta su Poder M\\u00e1gico {0} puntos durante {2} segundos"
+  },
+  "movement_bloom_u_description": {
+    "message": "Lanza esporas que bajan la Defensa y Resistencia m\\u00e1gica {0} y {1} puntos durante {4} segundos"
+  },
+  "movement_bloom_ultimate_description": {
+    "message": "Genera raices m\\u00e1gicas que crecen de forma violenta produciendo {0} de daño {1} {2}"
+  },
+  "movement_charm_a_description": {
+    "message": "Impacta con amor produciendo {0} de daño {1} {2}"
+  },
+  "movement_charm_e_description": {
+    "message": "Genera un escudo de amor que aumenta Defensa y Resistencia m\\u00e1gica {0} puntos"
+  },
+  "movement_charm_i_description": {
+    "message": "Lanza besos cargados de mucho cariño sanando {0} {1} puntos"
+  },
+  "movement_charm_o_description": {
+    "message": "Seduce al objetivo baj\\u00e1ndole el Ataque y Poder m\\u00e1gico {0} y {1} puntos durante {4} segundos (acumulable)"
+  },
+  "movement_charm_u_description": {
+    "message": "Resucita con la vida al m\\u00e1ximo a un aliado debilitado o restaura {0} {1} puntos peri\\u00f3dicamente (cada {2} segundos) 5 veces"
+  },
+  "movement_charm_ultimate_description": {
+    "message": "Lanza una bomba de puro amor t\\u00f3xico produciendo {0} de daño {1} {2}"
+  },
+  "movement_damage_type_arcane": {
+    "message": "Arcano"
+  },
+  "movement_damage_type_blunt": {
+    "message": "Contundente"
+  },
+  "movement_damage_type_explosion": {
+    "message": "Explosivo"
+  },
+  "movement_damage_type_pierce": {
+    "message": "Perforante"
+  },
+  "movement_damage_type_slash": {
+    "message": "Cortante"
+  },
+  "movement_damage_magical": {
+    "message": "M\\u00e1gico"
+  },
+  "movement_damage_physical": {
+    "message": "F\\u00edsico"
+  },
+  "movement_defense_magical": {
+    "message": "M\\u00e1gico"
+  },
+  "movement_defense_physical": {
+    "message": "F\\u00edsico"
+  },
+  "movement_buff_damage_magical": {
+    "message": "M\\u00e1gico"
+  },
+  "movement_buff_damage_physical": {
+    "message": "F\\u00edsico"
+  },
+  "movement_buff_defense_magical": {
+    "message": "M\\u00e1gico"
+  },
+  "movement_buff_defense_physical": {
+    "message": "F\\u00edsico"
+  },
+  "movement_de_buff_damage_magical": {
+    "message": "M\\u00e1gico"
+  },
+  "movement_de_buff_damage_physical": {
+    "message": "F\\u00edsico"
+  },
+  "movement_de_buff_defense_magical": {
+    "message": "M\\u00e1gico"
+  },
+  "movement_de_buff_defense_physical": {
+    "message": "F\\u00edsico"
+  },
+  "movement_heal": {
+    "message": "Sanaci\\u00f3n"
+  },
+  "movement_description_unknown": {
+    "message": "?"
+  },
+  "movement_e": {
+    "message": "E"
+  },
+  "movement_flood_a_description": {
+    "message": "Realiza varios tajos de agua jet produciendo {0} de daño {1} {2}"
+  },
+  "movement_flood_e_description": {
+    "message": "Genera un escudo de agua que aumenta la Defensa {0} puntos"
+  },
+  "movement_flood_i_description": {
+    "message": "Deja caer una l\\u00e1grima de agua purificadora que sana {0} {1} puntos"
+  },
+  "movement_flood_o_description": {
+    "message": "Empapa a un aliado en agua m\\u00e1gica que aumenta su Ataque {0} puntos durante {2} segundos"
+  },
+  "movement_flood_u_description": {
+    "message": "Invoca seres m\\u00e1gicos acu\\u00e1ticos que impactan al objetivo produciendo {0} de daño {1} {2}"
+  },
+  "movement_flood_ultimate_description": {
+    "message": "Produce un mega torbellino de aguas furiosas produciendo {0} de daño {1} {2}"
+  },
+  "movement_frost_a_description": {
+    "message": "Lanza tajos de hielo produciendo {0} de daño {1} {2}"
+  },
+  "movement_frost_e_description": {
+    "message": "Genera un escudo de hielo que aumenta Defensa y Resistencia m\\u00e1gica {0} puntos"
+  },
+  "movement_frost_i_description": {
+    "message": "Cae un gigantesco t\\u00e9mpano de hielo produciendo {0} de daño {1} {2}"
+  },
+  "movement_frost_o_description": {
+    "message": "Invoca pequeñas estalactitas m\\u00e1gicas que van generando daño en el tiempo: {0} {1} {2} de 1 a 10 veces"
+  },
+  "movement_frost_u_description": {
+    "message": "Caen bloques de hielos que impactan fuertemente produciendo {0} de daño {1} {2}"
+  },
+  "movement_frost_ultimate_description": {
+    "message": "Forma un gran iceberg que provoca {0} de daño {1} {2}"
+  },
+  "movement_i": {
+    "message": "I"
+  },
+  "movement_normal_a_description": {
+    "message": "Dos impactos que realizan {0} {1} {2}"
+  },
+  "movement_normal_e_description": {
+    "message": "Proporciona un escudo de voluntad que aumenta Defensa y Resistencia m\\u00e1gica {0} puntos"
+  },
+  "movement_normal_i_description": {
+    "message": "Genera una poderosa aura de voluntad que sana {0} {1} puntos"
+  },
+  "movement_normal_o_description": {
+    "message": "Influye voluntad a aliados aumentando su Ataque y Poder m\\u00e1gico {0} y {1} puntos durante {4} segundos"
+  },
+  "movement_normal_u_description": {
+    "message": "Arremete con los tent\\u00e1culos atacando 10 veces ({0} {2} {4}). Finalmente da un golpe final de gran potencia ({1} {3} {5})"
+  },
+  "movement_normal_ultimate_description": {
+    "message": "Libera un poder explosivo produciendo {0} de daño {1} {2}"
+  },
+  "movement_o": {
+    "message": "O"
+  },
+  "movement_shade_a_description": {
+    "message": "Crea un orbe de oscuridad que impacta produciendo {0} de daño {1} {2}"
+  },
+  "movement_shade_e_description": {
+    "message": "Genera un escudo de oscuridad que aumenta Defensa y Resistencia m\\u00e1gica {0} puntos"
+  },
+  "movement_shade_i_description": {
+    "message": "Lanza una llama de oscuridad que maldice al objetivo produciendo {0} de daño {2} {4}, adem\\u00e1s baja su Poder m\\u00e1gico {1} puntos durante {5} segundos (acumulable)"
+  },
+  "movement_shade_o_description": {
+    "message": "Crea orbes malditos que impregnan el alma del objetivo baj\\u00e1ndole todas las estad\\u00edsticas {0}, {1}, {2} y {3} puntos durante {8} segundos."
+  },
+  "movement_shade_u_description": {
+    "message": "Invoca un portal al plano de la oscuridad por el que se cuelan torrentes oscuros produciendo {0} de daño {1} {2}"
+  },
+  "movement_shade_ultimate_description": {
+    "message": "Libera una explosi\\u00f3n magia oscura produciendo {0} de daño {1} {2}"
+  },
+  "movement_shine_a_description": {
+    "message": "Genera un conjunto de destellos afilados que produce {0} de daño {1} {2}"
+  },
+  "movement_shine_e_description": {
+    "message": "Crea un escudo de luz que aumenta la Defensa y la Resistencia m\\u00e1gica {0} puntos"
+  },
+  "movement_shine_i_description": {
+    "message": "Emite una luz que sana el alma {0} {1} puntos"
+  },
+  "movement_shine_o_description": {
+    "message": "Invoca un c\\u00edrculo de luz ascendente que alienta el alma de un aliado subiendo todas las estad\\u00edsticas {0}, {1}, {2} y {3} puntos durante {8} segundos"
+  },
+  "movement_shine_u_description": {
+    "message": "Lanza pequeños y abundantes resplandores m\\u00e1gicos que atraviesan al objetivo y provoca {0} de daño {1} {2}"
+  },
+  "movement_shine_ultimate_description": {
+    "message": "Emite un destello de luz purificadora produciendo {0} de daño {1} {2}"
+  },
+  "movement_sound_a_description": {
+    "message": "¡Platillazos! El poder de la percusi\\u00f3n te ataca con {0} de daño {1} {2}"
+  },
+  "movement_sound_e_description": {
+    "message": "La m\\u00fasica te protege con un aura especial de {0} para la Resistencia m\\u00e1gica"
+  },
+  "movement_sound_i_description": {
+    "message": "Una gr\\u00e1cil melod\\u00eda que consigue ensalzar los esp\\u00edritus otorga {0} y {1} puntos a la Defensa y la Resistencia m\\u00e1gica durante {4} segundos"
+  },
+  "movement_sound_o_description": {
+    "message": "Un ritmillo que incita a bailar y aumenta el Ataque y el Poder m\\u00e1gico {0} y {1} puntos durante {4} segundos"
+  },
+  "movement_sound_u_description": {
+    "message": "¡Una explosi\\u00f3n musical que llega a lo m\\u00e1s profundo! Produce {0} de daño {1} {2}"
+  },
+  "movement_sound_ultimate_description": {
+    "message": "Suena una vigorosa oleada musical que arremete con {0} de daño {1} {2}"
+  },
+  "movement_spark_a_description": {
+    "message": "Golpea con sus tent\\u00e1culos cargados de est\\u00e1tica provocando {0} de daño {1} {2}"
+  },
+  "movement_spark_e_description": {
+    "message": "Crea un escudo el\\u00e9ctrico que aumenta la Defensa {0} puntos y la Resistencia m\\u00e1gica {1} puntos"
+  },
+  "movement_spark_i_description": {
+    "message": "Una serie de rel\\u00e1mpagos caen sobre el objetivo y provocan {0} de daño {1} {2}"
+  },
+  "movement_spark_o_description": {
+    "message": "Conjunto de orbes voltaicos se posicionan sobre un aliado y crean campos el\\u00e9ctricos que potencian el Poder M\\u00e1gico {0} puntos durante {2} segundos. Estos se pueden repetir en el tiempo de 4 a 10 veces cada 5 segundos."
+  },
+  "movement_spark_u_description": {
+    "message": "Genera una gran descarga de corriente que perfora a su objetivo provoc\\u00e1ndole {0} de daño {2} {4}. Por cada uso el usuario recibe un penalizador a su Poder M\\u00e1gico de {1} durante {5} segundos"
+  },
+  "movement_spark_ultimate_description": {
+    "message": "Un poder de energ\\u00eda sobrecargada explota en una onda expansiva electro-magn\\u00e9tica generando {0} de daño {1} {2}"
+  },
+  "movement_stone_a_description": {
+    "message": "Impacta con rocas de gran dureza al objetivo produciendo {0} de daño {1} {2}"
+  },
+  "movement_stone_e_description": {
+    "message": "Levanta un gigantesco muro de piedra que aumenta la Defensa {0} puntos"
+  },
+  "movement_stone_i_description": {
+    "message": "Invoca gemas m\\u00e1gicas muy afiladas que perforan al objetivo produciendo {0} de daño {1} {2}"
+  },
+  "movement_stone_o_description": {
+    "message": "Genera un escudo de gemas m\\u00e1gicas que aumentan la Resitencia m\\u00e1gica {0} puntos durante {2} segundos"
+  },
+  "movement_stone_u_description": {
+    "message": "Lanza una gran roca con la fuerza igualable a la de un meteorito. Esta explota al impactar provocando {0} de daño {1} {2}"
+  },
+  "movement_stone_ultimate_description": {
+    "message": "Una serie de descomunales terremotos alteran el campo de batalla provocando al objetivo {0} de daño {1} {2}"
+  },
+  "movement_storm_a_description": {
+    "message": "Un viento afilado arremete contra el objetivo produciendo {0} de daño {1} {2}"
+  },
+  "movement_storm_e_description": {
+    "message": "El viento se arremolina alrededor de la medusa para crear un escudo de r\\u00e1fagas que concede {0} de Defensa"
+  },
+  "movement_storm_i_description": {
+    "message": "Invoca unas brisas ligeras y extrañas que provocan debilidad. La Defensa y la Resistencia m\\u00e1gica disminuyen {0} y {1} puntos durante {4} segundos"
+  },
+  "movement_storm_o_description": {
+    "message": "Genera de 1 a 10 remolinos de viento que golpean a quien envuelve con {0} de daño {1} {2}"
+  },
+  "movement_storm_u_description": {
+    "message": "Ataca creando un poderoso torbellino que arremete causando {0} de daño {1} {2}"
+  },
+  "movement_storm_ultimate_description": {
+    "message": "La potencia de un hurac\\u00e1n se desata contra el objetivo, provocando {0} de daño {1} {2}."
+  },
+  "movement_dread_a_description": {
+    "message": "Usa los tent\\u00e1culos para lanzar un arañazo con un potente veneno produciendo {0} de daño {1} {2}."
+  },
+  "movement_dread_e_description": {
+    "message": "Canaliza poder para generar un orbe de protecci\\u00f3n que otorga un escudo Defensivo o M\\u00e1gico de {0} puntos dependiendo del estado de la Corrupci\\u00f3n (+ Info en la O)."
+  },
+  "movement_dread_i_description": {
+    "message": "Invoca una serie de ojos espectrales que intimidan al objetivo baj\\u00e1ndole todas sus estad\\u00edsticas {0}, {1}, {2} y {3} puntos durante {8} segundos."
+  },
+  "movement_dread_o_description": {
+    "message": "Altera la Corrupci\\u00f3n del usuario para aumentar las defensas a otros elementos {0} puntos (acumulable). Si el movimiento es usado contra un Elemental de la Corrupci\\u00f3n alterna sus estad\\u00edsticas de combate: Ataque \\u2B64 Poder M\\u00e1gico y Defensa \\u2B64 Resistencia M\\u00e1gica."
+  },
+  "movement_dread_u_description": {
+    "message": "Un gran ojo espectral atormenta el alma del objetivo causando {0} de daño {1} {2}. Si el estado de la Corrupci\\u00f3n est\\u00e1 alterado (+ Info en la O) aumenta considerablemente su potencia."
+  },
+  "movement_dread_ultimate_description": {
+    "message": "La Corrupci\\u00f3n espectral se manifiesta f\\u00edsicamente y ataca a su objetivo con un rayo devastador provocando {0} de daño {1} {2}."
+  },
+  "movement_type_buff": {
+    "message": "Bonificador"
+  },
+  "movement_type_damage": {
+    "message": "Daño"
+  },
+  "movement_type_de_buff": {
+    "message": "Penalizador"
+  },
+  "movement_type_heal": {
+    "message": "Sanaci\\u00f3n"
+  },
+  "movement_type_shield": {
+    "message": "Escudo"
+  },
+  "movement_type_unknown": {
+    "message": "?"
+  },
+  "movement_u": {
+    "message": "U"
+  },
+  "movement_ultimate": {
+    "message": "Definitiva"
+  },
+  "movement_unknown": {
+    "message": "?"
+  },
+  "raid_role_healer": {
+    "message": "Sanador"
+  },
+  "raid_role_leader": {
+    "message": "Defensor"
+  },
+  "raid_role_unknown": {
+    "message": "Desconocido"
+  },
+  "raid_role_warrior": {
+    "message": "Atacante"
+  },
+  "raid_score_a": {
+    "message": "A"
+  },
+  "raid_score_b": {
+    "message": "B"
+  },
+  "raid_score_c": {
+    "message": "C"
+  },
+  "raid_score_d": {
+    "message": "D"
+  },
+  "raid_score_e": {
+    "message": "E"
+  },
+  "raid_score_s_plus": {
+    "message": "S+"
+  },
+  "raid_score_s": {
+    "message": "S"
+  },
+  "raid_status_defeat": {
+    "message": "Derrota"
+  },
+  "raid_status_unknown": {
+    "message": "Desconocido"
+  },
+  "raid_status_victory": {
+    "message": "Victoria"
+  },
+  "raid_type_normal": {
+    "message": "Normal"
+  },
+  "raid_type_shiny": {
+    "message": "Vario-color"
+  },
+  "raid_type_unknown": {
+    "message": "Desconocido"
+  },
+  "skin_0": {
+    "message": "Moon"
+  },
+  "skin_10": {
+    "message": "M\\u00fasica Sonatta"
+  },
+  "skin_11": {
+    "message": "Santa Moon"
+  },
+  "skin_12": {
+    "message": "Reina Frost"
+  },
+  "skin_13": {
+    "message": "Frost Arco\\u00edris"
+  },
+  "skin_14": {
+    "message": "Glace"
+  },
+  "skin_15": {
+    "message": "Reina Pumpkin"
+  },
+  "skin_16": {
+    "message": "Reina del Fuego"
+  },
+  "skin_17": {
+    "message": "Reina Diamante"
+  },
+  "skin_18": {
+    "message": "Diamante Agrietado"
+  },
+  "skin_19": {
+    "message": "Comandante Blaze"
+  },
+  "skin_1": {
+    "message": "Capit\\u00e1n Ignis"
+  },
+  "skin_20": {
+    "message": "Comandante Blaze de Prestigio"
+  },
+  "skin_21": {
+    "message": "Blaze Demon\\u00edaco"
+  },
+  "skin_22": {
+    "message": "Aeros"
+  },
+  "skin_23": {
+    "message": "Cacique Storm"
+  },
+  "skin_24": {
+    "message": "Cacique Storm de Prestigio"
+  },
+  "skin_25": {
+    "message": "Sheriff Storm"
+  },
+  "skin_26": {
+    "message": "Aura la diva"
+  },
+  "skin_27": {
+    "message": "Aura la diva de Prestigio"
+  },
+  "skin_28": {
+    "message": "Shirly"
+  },
+  "skin_29": {
+    "message": "Symphony"
+  },
+  "skin_2": {
+    "message": "Soldado Azure"
+  },
+  "skin_30": {
+    "message": "Gran Rey Flood"
+  },
+  "skin_31": {
+    "message": "Gran Reina Charm"
+  },
+  "skin_32": {
+    "message": "Gran Reina Charm de Prestigio"
+  },
+  "skin_33": {
+    "message": "Sugar Crush"
+  },
+  "skin_34": {
+    "message": "Aprendiz Grine"
+  },
+  "skin_35": {
+    "message": "Maestro Stone"
+  },
+  "skin_36": {
+    "message": "Maestro Stone de Prestigio"
+  },
+  "skin_37": {
+    "message": "Ejecutivo Stonks"
+  },
+  "skin_38": {
+    "message": "Maestro Grine"
+  },
+  "skin_39": {
+    "message": "Dama Bloom"
+  },
+  "skin_3": {
+    "message": "Leaf"
+  },
+  "skin_40": {
+    "message": "Bloom Desatada"
+  },
+  "skin_41": {
+    "message": "Dama Bloom de Prestigio"
+  },
+  "skin_42": {
+    "message": "Doom"
+  },
+  "skin_43": {
+    "message": "Moon la orgullosa"
+  },
+  "skin_44": {
+    "message": "El Impostor"
+  },
+  "skin_45": {
+    "message": "Flor de la muerte"
+  },
+  "skin_46": {
+    "message": "El Impostor de Prestigio"
+  },
+  "skin_47": {
+    "message": "Reaper"
+  },
+  "skin_48": {
+    "message": "Leaf de Maestría"
+  },
+  "skin_49": {
+    "message": "Ohm"
+  },
+  "skin_4": {
+    "message": "Hema"
+  },
+  "skin_50": {
+    "message": "Dread"
+  },
+  "skin_51": {
+    "message": "Spark"
+  },
+  "skin_52": {
+    "message": "Spark de Prestigio"
+  },
+  "skin_53": {
+    "message": "Dynamo"
+  },
+  "skin_54": {
+    "message": "Moon clásica"
+  },
+  "skin_55": {
+    "message": "Volt"
+  },
+  "skin_56": {
+    "message": "Overvolt"
+  },
+  "skin_57": {
+    "message": "Prestige Volt"
+  },
+  "skin_58": {
+    "message": "???"
+  },
+  "skin_5": {
+    "message": "Healery"
+  },
+  "skin_6": {
+    "message": "Nerau"
+  },
+  "skin_7": {
+    "message": "Translucent"
+  },
+  "skin_8": {
+    "message": "Translucent Sangriento"
+  },
+  "skin_9": {
+    "message": "Amarantha"
+  },
+  "skin_description_0": {
+    "message": "Moon es una medusa sin elemento que acompaña a los protagonistas de la historia. Tiene mucha vitalidad y una mente algo inocente. No se sabe mucho acerca de ella ni a qu\\u00e9 dominio elemental pertenece"
+  },
+  "skin_description_10": {
+    "message": "La M\\u00fasica Sonatta es una medusa elemental de Sonido. Pertenece al grupo de artistas itinerantes TentaSyncs. Es la instrumentista principal de la vocalista y jefa del grupo."
+  },
+  "skin_description_11": {
+    "message": "Santa Moon es una variante no can\\u00f3nica de Moon que se puede obtener durante la \\u00e9poca navideña"
+  },
+  "skin_description_12": {
+    "message": "La Reina Frost es una medusa elemental de Hielo. Es la soberana en el dominio del Hielo \"Cumbre Helada\". Posee una gran y fr\\u00eda determinaci\\u00f3n y siempre lo entrega todo para proteger a su reino y seres queridos. Su personalidad a veces es algo inestable y se deja llevar por las emociones."
+  },
+  "skin_description_13": {
+    "message": "Frost Arco\\u00edris es una variante no can\\u00f3nica de la Reina Frost."
+  },
+  "skin_description_14": {
+    "message": "Glace es una medusa elemental de Hielo. Era ciudadano de Cumbre Helada, actualmente fue asesinado por ej\\u00e9rcito de la Reina Pumpkin durante la invasi\\u00f3n del Cap\\u00edtulo 1 y posteriormente reencarnada en un Translucent"
+  },
+  "skin_description_15": {
+    "message": "La Reina Pumpkin es una medusa elemental de Flora. No se sabe de donde proviene y lo poco que se sabe de ella es que una especie nueva de medusa denominada \"Carceleras\" que tiene la capacidad de apresar en su interior a cualquier medusa y aprovecharse de su poder. En el Cap\\u00edtulo 1 realiz\\u00f3 una invasi\\u00f3n al dominio del Hielo arrasando todo a su paso y posteriormente al dominio del Fuego. All\\u00ed consigui\\u00f3 aprisionar al Comandante Blaze pudiendo as\\u00ed adquirir la forma Reina de Fuego, la cual pod\\u00eda usar la Gema del Fuego a su voluntad. Al finalizar el Acto 2 del Cap\\u00edtulo 1, Pumpkin fue derrotada por los protagonistas lo cual provoc\\u00f3 su muerte por sobre carga de su poder"
+  },
+  "skin_description_16": {
+    "message": "La Reina del Fuego es una medusa elemental de Fuego. Es la segunda forma que adquiere Pumpkin al activar la Gema del Fuego del Comandante Blaze que tiene apresado. Su poder es bastante inestable y dada su naturaleza original de Flora el poder acaba demacr\\u00e1ndola demasiado llegando a costarle la vida al final del Acto 2 del Cap\\u00edtulo 1"
+  },
+  "skin_description_17": {
+    "message": "La Reina Diamante es una variante no can\\u00f3nica de La Reina Pumpkin"
+  },
+  "skin_description_18": {
+    "message": "Diamante Agrietado es una variante no can\\u00f3nica de La Reina del Fuego"
+  },
+  "skin_description_19": {
+    "message": "El Comandante Blaze es una medusa elemental de Fuego. Es el gobernante del dominio del Fuego \"Bast\\u00f3n Ardiente\". Es de ardiente coraz\\u00f3n y sabe valorar el potencial de sus aliados y amigos. En el Cap\\u00edtulo 1 fue apresado por la Reina Pumpkin, durante ese estado \\u00e9l estuvo en un estado de catarsis. No obstante, durante su cautiverio, era capaz de sentir los sentimientos y pensamientos de su apresora. Al final del Cap\\u00edtulo 1, fue liberado por los protagonistas y se convirti\\u00f3 en su mentor para prepararles para la Misi\\u00f3n de la Cruzada Elemental"
+  },
+  "skin_description_1": {
+    "message": "El Capit\\u00e1n Ignis es una medusa elemental de Fuego. Es el segundo al mando en el dominio del Fuego \"El Basti\\u00f3n Ardiente\". A pesar de tener un alto cargo peca mucho de no ser muy valiente"
+  },
+  "skin_description_20": {
+    "message": "El Comandante Blaze de Prestigio es una variante no can\\u00f3nica del Comandante Blaze. Es una recompensa exclusiva cuando se adquiere Rango S en la invasi\\u00f3n."
+  },
+  "skin_description_21": {
+    "message": "Blaze Demon\\u00edaco es una variante no can\\u00f3nica del Comandante Blaze."
+  },
+  "skin_description_22": {
+    "message": "Aeros es una medusa elemental de Viento. Pertenece a la Tribu del dominio del Viento \"Alturas de Tormenta\". Es el recadero principal de su Cacique, por el cual siente pasi\\u00f3n por \\u00e9l. Solo sabe cumplir sus \\u00f3rdenes independientemente de su naturaleza y \\u00e9tica."
+  },
+  "skin_description_23": {
+    "message": "El Cacique Storm es una medusa elemental de Viento. Es el l\\u00edder del dominio del Viento \"Alturas de Tormenta\". Como recientemente nombrado Heredero y Poseedor de la Gema del Viento de su reci\\u00e9n fallecido Padre el antiguo Cacique, ha adquirido una personalidad altamente eg\\u00f3latra y absurdamente violenta; sin embargo, esto no ha sido mal visto por los nativos de su Tribu, por lo contrario le veneran y esto no hace m\\u00e1s que su subir su ego constantemente, lleg\\u00e1ndose a creer la medusa m\\u00e1s poderosa del Aqualia"
+  },
+  "skin_description_24": {
+    "message": "El Cacique Storm de Prestigio es una variante no can\\u00f3nica del Cacique Storm. Es una recompensa exclusiva cuando se adquiere Rango S en la invasi\\u00f3n."
+  },
+  "skin_description_25": {
+    "message": "Sheriff Storm es una variante no can\\u00f3nica del Cacique Storm"
+  },
+  "skin_description_26": {
+    "message": "Aura la diva es una medusa elemental de Sonido. Es la poseedora de la Gema del Sonido y es la lider de la troupe de artista itinerantes TentaSyncs. Aura junto con Sonatta son las \\u00fanicas medusas del sonido del mundo de Aqualia, puesto que la Gema del Sonido otorga la vida eterna a su poseedora."
+  },
+  "skin_description_27": {
+    "message": "Aura la diva de Prestigio es una variante no can\\u00f3nica de Aura. Es una recompensa exclusiva cuando se adquiere Rango S en la invasi\\u00f3n."
+  },
+  "skin_description_28": {
+    "message": "Shirly es una variante no can\\u00f3nica de Aura"
+  },
+  "skin_description_29": {
+    "message": "Symphony es una variante no can\\u00f3nica de Sonatta"
+  },
+  "skin_description_2": {
+    "message": "El Soldado Azure es una medusa elemental de Agua. Est\\u00e1 reci\\u00e9n alistado al ej\\u00e9rcito Imperial del Zafiro. Tiene bien arraigado los valores del dominio del Agua y su honor y lealtad a la corona le hicieron ser de los mejores de su promoci\\u00f3n"
+  },
+  "skin_description_30": {
+    "message": "Flood es el Gran Rey del Imperio del Zafiro. Adem\\u00e1s de Poseedor de la Gema del Agua, es el segundo monarca del Imperio desde hace mucho tiempo. Desde muy pequeño siempre ha sido entrenado en las tradiciones del imperio y siempre se le ha conocido por ser muy cort\\u00e9s y afable con sus allegados y s\\u00fabditos. Todo el mundo respeta y adora a Flood, aunque no todo el mundo opina lo mismo..."
+  },
+  "skin_description_31": {
+    "message": "Charm es la Gran Reina del imperio del Zafiro. Es la Poseedora de la Gema del Amor la cual est\\u00e1 dividida en dos partes. Rumores indican que su Gema realmente est\\u00e1 destinada a tener dos Poseedores que ambos compartan un gran amor. Charm es bastante reservada, firme y con un caracter bastante ardiente. Su procedencia y pasado son algo inciertos, cuando era joven fue encontrada sin recuerdos, inconsciente y sin Poder Elemental en los territorios del Imperio, el monarca de entonces permiti\\u00f3 que una de las familias reales la adoptasen. Con el paso del tiempo ella, sin pretenderlo, despert\\u00f3 el poder de la Gema del Amor, la cual nunca lleg\\u00f3 a tener Poseedor. Y desde entonces ha sido su Poseedora hasta el d\\u00eda de hoy adquiriendo un gran renombre dentro del Imperio y de Aqualia en general. Flood sinti\\u00f3 un amor a primera vista por ella y cuando le nombraron Rey le propuso matrimonio, el cual ella no pudo evitar rechazarlo..."
+  },
+  "skin_description_32": {
+    "message": "Gran Reina Charm de Prestigio es una variante no can\\u00f3nica de la Gran Reina Charm. Es una recompensa exclusiva cuando se adquiere Rango S en la invasi\\u00f3n."
+  },
+  "skin_description_33": {
+    "message": "Sugar Crush es una variante no can\\u00f3nica de la Gran Reina Charm"
+  },
+  "skin_description_34": {
+    "message": "El Aprendiz Grine es un estudiante de la Academia Y\\u00e1nsh\\u00ed. Muy pronto se celebrar\\u00e1 el Gran Torneo Anual de la Academia y Grine se ha estado preparando para ser seguro uno de los mejores aspirantes. Ganar el torneo supone heredar la Gema de la Piedra y convertirse en el siguiente Poseedor. Sin embargo, jam\\u00e1s se ha visto que la Gema cambie de Poseedor desde que el Maestro Stone la adquiri\\u00f3... Nadie ha sido capaz de superar la \\u00faltima prueba del Torneo."
+  },
+  "skin_description_35": {
+    "message": "El Maestro Stone es el Poseedor de la Gema de la Piedra. Es l\\u00edder supremo de su dominio Geopong y al mismo tiempo Director de la Academia Y\\u00e1nsh\\u00ed. Es un apasionado de la bot\\u00e1nica y se pasa su tiempo libre cuidando los jardines de toda Geopong. En la academia se encarga de formar a sus alumnos para que en un futuro se conviertan en los futuros Poseedores. No se tiene registro de que haya existido ning\\u00fan otro Poseedor de la Gema de la Piedra antes que \\u00e9l."
+  },
+  "skin_description_36": {
+    "message": "Maestro Stone de Prestigio es una variante no can\\u00f3nica del Maestro Stone. Es una recompensa exclusiva cuando se adquiere Rango S en la invasi\\u00f3n."
+  },
+  "skin_description_37": {
+    "message": "El Ejecutivo Stonks es una variante no can\\u00f3nica del Maestro Stone."
+  },
+  "skin_description_38": {
+    "message": "Grine hered\\u00f3 la Gema de la Piedra de su Maestro Grine al final del Cap\\u00edtulo 3 Acto 1. Por este hecho acab\\u00f3 convirti\\u00e9ndose en el nuevo Poseedor vi\\u00e9ndose as\\u00ed su apariencia cambiada por las propiedades de la Gema."
+  },
+  "skin_description_39": {
+    "message": "La Dama Bloom es la Poseedora de la Gema de la Flora. Es l\\u00edder del dominio del Clan Nen\\u00fafar. Es muy valorada y querida por los miembros de su Clan por el gran cariño y voluntad que tiene con su pueblo. Hace alg\\u00fan tiempo su m\\u00e1s preciada seguidora, Leaf, reci\\u00e9n convertida en Pumpkin, se revel\\u00f3 contra ella y su pueblo, provocando caos y destrucci\\u00f3n. Bloom tuvo que luchar a muerte contra ella en contra de su voluntad. Hubiera conseguido acabar con ella si no fuera porque una misteriosa medusa apareci\\u00f3 de la nada en el \\u00faltimo momento y, de alg\\u00fan modo  inexplicable para Bloom, consigui\\u00f3 impedir que le asestara el golpe final. Pumpkin asest\\u00f3 a Bloom una grave herida en el momento en que baj\\u00f3 la guardia que le hizo perder un ojo y acab\\u00f3 escapando del clan. En el Cap\\u00edtulo 3, su clan, que a\\u00fan no logr\\u00f3 reponerse del todo del ataque de Pumpkin, est\\u00e1 siendo masacrado de nuevo por una misteriosa entidad que a\\u00fan no han logrado identificar. Los supervivientes dicen que esa entidad es capaz de hacerse pasar por otra medusa como modus operandi..."
+  },
+  "skin_description_3": {
+    "message": "Leaf es una medusa elemental de Flora. Pertenece al Clan del Nen\\u00fafar del dominio de la Flora. Su personalidad es muy infantil, y le encanta hacer amigos"
+  },
+  "skin_description_40": {
+    "message": "Esta es la apariencia que adquiere la Dama Bloom para mejorar sus habilidades de combate. Sus dos mort\\u00edferas katanas le otorgan un poder destructivo sin igual que ni si quiera necesitan poder Elemental para ser una gran amenaza. Se puede distinguir la cicatriz que le caus\\u00f3 Pumpkin en el pasado y la Gema de la Flora que usa como sustituci\\u00f3n de su ojo."
+  },
+  "skin_description_41": {
+    "message": "Dama Bloom de Prestigio es una variante no can\\u00f3nica de la Dama Bloom. Es una recompensa exclusiva cuando se adquiere Rango S en la invasi\\u00f3n."
+  },
+  "skin_description_42": {
+    "message": "Doom es una variante no can\\u00f3nica de la Dama Bloom."
+  },
+  "skin_description_43": {
+    "message": "Moon la orgullosa es una variante no can\\u00f3nica de Moon que se puede obtener durante la \\u00e9poca del Pride Month"
+  },
+  "skin_description_44": {
+    "message": "El Impostor es una medusa carcelera. Originalmente, era Aeros corrompido por el misterioso poder de una medusa desconocida cuando estaba de regreso a su tribu en Alturas de Tormenta. Tiene la capacidad de mimetizarse con el entorno y adaptar a su voluntad la apariencia y voz de otras medusas. Esto es su modus operandi que utiliza para infiltrarse y aniquilar a sus presas y esta es la raz\\u00f3n por la que lo acabaron llamando como El Impostor. Durante el transcurso del Cap\\u00edtulo 3 ha estado d\\u00eda tras d\\u00eda atacando y aterrorizando a los aldeanos del Clan Nen\\u00fafar. Cuando Moon y los dem\\u00e1s llegaron aprovech\\u00f3 este inusual evento para hacerse pasar por un Centinela y capturarlos junto a otros para ser llevados junto a la Dama Bloom que era su objetivo principal. Finalmente, ha logrado su objetivo y ahora tiene la Gema de la Flora en su poder."
+  },
+  "skin_description_45": {
+    "message": "La Flor de la muerte es la transformaci\\u00f3n final de El Impostor tras canalizar la energ\\u00eda de la Gema de la Flora en un intento desesperado de intentar derrotar a nuestros protagonistas. Esto es posible que pudiera salirle bastante mal porque en el momento menos esperado algo del interior de la Gema despert\\u00f3..."
+  },
+  "skin_description_46": {
+    "message": "El Impostor de Prestigio es una variante no can\\u00f3nica de El Impostor. Es una recompensa exclusiva cuando se adquiere Rango S en la invasi\\u00f3n."
+  },
+  "skin_description_47": {
+    "message": "Reaper es una variante no can\\u00f3nica de El Impostor."
+  },
+  "skin_description_48": {
+    "message": "Esta es la verdadera apariencia de Leaf. S\\u00f3lo puede ser conseguida canje\\u00e1ndola por puntos de maestr\\u00eda"
+  },
+  "skin_description_49": {
+    "message": "Ohm es una medusa elemental El\\u00e9ctrica. Pertenece al gremio de aventureros de Spark y es la mano derecha de este \\u00faltimo. Tiene una personalidad muy activa y energ\\u00e9tica, y esto es en parte contagiado por la personalidad de su \\u00eddolo Spark al cual imita y acompaña en todos sus viajes y aventuras."
+  },
+  "skin_description_4": {
+    "message": "Hema es una medusa elemental de Sangre. Vive en el Ducado Carmes\\u00ed del dominio de la Sangre. Es una medusa bastante solitaria que vive muy al margen de la sociedad arist\\u00f3crata del Ducado."
+  },
+  "skin_description_50": {
+    "message": "Dread es una medusa elemental del Miedo y posee la Gema del Horror. Su procedencia es desconocida a la vez que su Gema dado que no existe ning\\u00fan registro acerca. Lo que s\\u00ed se sabe, descubierto por los protagonistas de la historia, es que es el responsable de la creaci\\u00f3n de Medusas carceleras como Reina Pumpkin y El Impostor."
+  },
+  "skin_description_51": {
+    "message": "Spark es el Poseedor de la Gema del Rayo. Se le conoce sobre todo por su personalidad activa y energ\\u00e9tica, se las da como una especie de superh\\u00e9roe cuyo inter\\u00e9s es salvar a otras medusas en apuros. Para ello Spark fund\\u00f3 el Gremio de Aventureros de Spark donde se reciben misiones de todo tipo a cambio de dinero al estilo de un cazarrecompensas. En este Gremio, Spark forma a otras medusas para ser miembros y elementales del Rayo siempre y cuando sean afines al elemento y la forma de ser de Spark."
+  },
+  "skin_description_52": {
+    "message": "Spark de Prestigio es una variante no can\\u00f3nica de Spark. Es una recompensa exclusiva cuando se adquiere Rango S en la invasi\\u00f3n."
+  },
+  "skin_description_53": {
+    "message": "Dynamo es una variante no can\\u00f3nica de Spark"
+  },
+  "skin_description_54": {
+    "message": "Moon cl\\u00e1sica es el primer diseño original de Moon cuando KurageApp alcanz\\u00f3 la versi\\u00f3n 2.0. Aunque no difiere mucho de la actual siendo tan solo diferente el color y forma de la flor de su cabeza y los tent\\u00e1culos m\\u00e1s pequeños, es el diseño que m\\u00e1s perdur\\u00f3 en KurageApp. A modo de conmemorar el primer cumpleaños de KurageApp versi\\u00f3n 4.0 traemos de vuelta esta versi\\u00f3n de Moon con expresiones faciales de las antiguas versiones. ¡Gracias por el apoyo que nos hab\\u00e9is dado!"
+  },
+  "skin_description_55": {
+    "message": "Volt es una medusa carcelera creada a partir de Spark en el acto 2 del Cap\\u00edtulo 4. Se cre\\u00f3 por accidente en un intento de Dread por corromper a Moon mientras discut\\u00edan con Spark. Este \\u00faltimo logr\\u00f3 darse cuenta justo un segundo antes interpon\\u00edendose en el momento cr\\u00edctico. Tras convertirse en Volt, este atrap\\u00f3 a Dread en su interior en contra de su voluntad. Por este hecho, Volt, es la medusa carcelera m\\u00e1s poderosa jam\\u00e1s creada con dos Gemas bajo su control."
+  },
+  "skin_description_56": {
+    "message": "Overvolt es la evoluci\\u00f3n definitiva de Volt. La corrupci\\u00f3n de su interior emerge en su m\\u00e1ximo esplendor pudiendo convertir las peores pesadillas en realidad."
+  },
+  "skin_description_57": {
+    "message": "Volt de Prestigio es una variante no can\\u00f3nica de Volt. Es una recompensa exclusiva cuando se adquiere Rango S en la invasi\\u00f3n."
+  },
+  "skin_description_58": {
+    "message": "???"
+  },
+  "skin_description_5": {
+    "message": "Healery es una medusa elemental de Luz. No se conoce nada sobre su historia o procedencia."
+  },
+  "skin_description_6": {
+    "message": "Nerau es una medusa elemental de Sombra. No se conoce nada sobre su historia o procedencia."
+  },
+  "skin_description_7": {
+    "message": "Translucent es una medusa elemental de Sombra. Su procedencia es desconocida, pero rumores cuentan que son producto de la resurrecci\\u00f3n necrom\\u00e1ntica de medusas ca\\u00eddas."
+  },
+  "skin_description_8": {
+    "message": "Translucent Sangriento es una variante no can\\u00f3nica de Translucent. Su poder elemental es de Sangre."
+  },
+  "skin_description_9": {
+    "message": "Amarantha es una medusa elemental del Amor. Se hospeda en el Castillo del Imperio Zafiro como primera Doncella de la Gran Reina Charm. Es una medusa firme y seria que har\\u00eda cualquier cosa por su Reina"
+  },
+  "skin_description_unknown": {
+    "message": "Entrada sin datos"
+  },
+  "skin_unknown": {
+    "message": "Medusa no descubierta"
+  },
+  "vs_role_healer": {
+    "message": "Sanador"
+  },
+  "vs_role_leader": {
+    "message": "Defensor"
+  },
+  "vs_role_unknown": {
+    "message": "Desconocido"
+  },
+  "vs_role_warrior": {
+    "message": "Atacante"
+  },
+  "vs_status_blue_victory": {
+    "message": "Victoria Azul"
+  },
+  "vs_status_red_victory": {
+    "message": "Victoria Roja"
+  },
+  "vs_status_tie": {
+    "message": "Empate"
+  },
+  "vs_status_unknown": {
+    "message": "Desconocido"
+  },
+  "vs_team_blue": {
+    "message": "Azul"
+  },
+  "vs_team_red": {
+    "message": "Rojo"
+  },
+  "vs_team_unknown": {
+    "message": "Desconocido"
+  },
+  "vs_type_casual": {
+    "message": "Casual"
+  },
+  "vs_type_final": {
+    "message": "Final"
+  },
+  "vs_type_normal": {
+    "message": "Normal"
+  },
+  "vs_type_unknown": {
+    "message": "Desconocido"
+  }
+}

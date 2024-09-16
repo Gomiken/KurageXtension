@@ -1,0 +1,866 @@
+{
+  "my_skin_title": {
+    "message": "My skin"
+  },
+  "element_0": {
+    "message": "Neutral"
+  },
+  "element_10": {
+    "message": "Storm"
+  },
+  "element_11": {
+    "message": "Stone"
+  },
+  "element_12": {
+    "message": "Spark"
+  },
+  "element_13": {
+    "message": "Dread"
+  },
+  "element_1": {
+    "message": "Blaze"
+  },
+  "element_2": {
+    "message": "Flood"
+  },
+  "element_3": {
+    "message": "Bloom"
+  },
+  "element_4": {
+    "message": "Blood"
+  },
+  "element_5": {
+    "message": "Shine"
+  },
+  "element_6": {
+    "message": "Shade"
+  },
+  "element_7": {
+    "message": "Charm"
+  },
+  "element_8": {
+    "message": "Sound"
+  },
+  "element_9": {
+    "message": "Frost"
+  },
+  "element_unknown": {
+    "message": "Unknown"
+  },
+  "movement_a": {
+    "message": "A"
+  },
+  "movement_basic_heal_description": {
+    "message": "Heal 5 points with the power of will."
+  },
+  "movement_basic_heal": {
+    "message": "Basic heal"
+  },
+  "movement_basic_description": {
+    "message": "Blunt impact with the body dealing 50 physical damage"
+  },
+  "movement_basic": {
+    "message": "Basic attack"
+  },
+  "movement_blaze_a_description": {
+    "message": "Performs a slash of fire producing {0} damage {1} {2}"
+  },
+  "movement_blaze_e_description": {
+    "message": "Generates a shield of fire that increases Defense {0} points"
+  },
+  "movement_blaze_i_description": {
+    "message": "Impacts in a forceful manner dealing {0} damage {1} {2}"
+  },
+  "movement_blaze_o_description": {
+    "message": "Wraps the target in a whirlwind of fire that generates damage over time: {0} {1} {2} from 1 to 10 times"
+  },
+  "movement_blaze_u_description": {
+    "message": "Detonates an explosion of fire producing {0} damage {2} {5}. Penalizes the targets Attack and Magic Power by {1} points for {6} seconds."
+  },
+  "movement_blaze_ultimate_description": {
+    "message": "Generates a mega fire explosion of 1,000,000 degrees Celsius producing {0} damage {1} {2}"
+  },
+  "movement_blood_a_description": {
+    "message": "Drops a spiked ball producing {0} damage {1} {2}"
+  },
+  "movement_blood_e_description": {
+    "message": "Generates a shield of magical blood that increases Defense {0} points"
+  },
+  "movement_blood_i_description": {
+    "message": "Emits jets of blood that hit the target producing {0} damage {2} {5}, also lowers its Defense and Magic Resistance {1} points for {6} seconds (accumulable)"
+  },
+  "movement_blood_o_description": {
+    "message": "Invokes successive piercing spike traps that generate damage over time: {0} {1} {2} from 1 to 10 times"
+  },
+  "movement_blood_u_description": {
+    "message": "Launches projectiles of magic blood producing {0} damage {1} {2}"
+  },
+  "movement_blood_ultimate_description": {
+    "message": "Unleashes powerful bloody moves that torture the target for {0} damage {1} {2}"
+  },
+  "movement_bloom_a_description": {
+    "message": "Slashes with sharp blades producing {0} damage {1} {2}"
+  },
+  "movement_bloom_e_description": {
+    "message": "Generates a floral shield that increases Defense and Magic Resistance {0} points"
+  },
+  "movement_bloom_i_description": {
+    "message": "Blesses an ally with life energy that heals {0} {1} points periodically (every {2} seconds) 6 times"
+  },
+  "movement_bloom_o_description": {
+    "message": "Wraps an ally with a magical flower that increases their Magic Power {0} points for {2} seconds"
+  },
+  "movement_bloom_u_description": {
+    "message": "Launches spores that lower Defense and Magic Resistance {0} and {1} points for {4} seconds"
+  },
+  "movement_bloom_ultimate_description": {
+    "message": "Generates magic roots that grow violently producing {0} damage {1} {2}"
+  },
+  "movement_charm_a_description": {
+    "message": "Impacts with love producing {0} damage {1} {2}"
+  },
+  "movement_charm_e_description": {
+    "message": "Generates a shield of love that increases Defense and Magic Resistance {0} points"
+  },
+  "movement_charm_i_description": {
+    "message": "Launches love-laden kisses healing {0} {1} points"
+  },
+  "movement_charm_o_description": {
+    "message": "Seduces the target by lowering Attack and Magic Power {0} and {1} points for {4} seconds (cumulative)"
+  },
+  "movement_charm_u_description": {
+    "message": "Resurrects a weakened ally at maximum health or restores {0} {1} points periodically (every {2} seconds) 5 times"
+  },
+  "movement_charm_ultimate_description": {
+    "message": "Launches a bomb of pure toxic love producing {0} damage {1} {2}"
+  },
+  "movement_damage_type_arcane": {
+    "message": "Arcane"
+  },
+  "movement_damage_type_blunt": {
+    "message": "Blunt"
+  },
+  "movement_damage_type_explosion": {
+    "message": "Explosive"
+  },
+  "movement_damage_type_pierce": {
+    "message": "Piercing"
+  },
+  "movement_damage_type_slash": {
+    "message": "Slashing"
+  },
+  "movement_damage_magical": {
+    "message": "Magical"
+  },
+  "movement_damage_physical": {
+    "message": "Physical"
+  },
+  "movement_defense_magical": {
+    "message": "Magical"
+  },
+  "movement_defense_physical": {
+    "message": "Physical"
+  },
+  "movement_buff_damage_magical": {
+    "message": "Magical"
+  },
+  "movement_buff_damage_physical": {
+    "message": "Physical"
+  },
+  "movement_buff_defense_magical": {
+    "message": "Magical"
+  },
+  "movement_buff_defense_physical": {
+    "message": "Physical"
+  },
+  "movement_de_buff_damage_magical": {
+    "message": "Magical"
+  },
+  "movement_de_buff_damage_physical": {
+    "message": "Physical"
+  },
+  "movement_de_buff_defense_magical": {
+    "message": "Magical"
+  },
+  "movement_de_buff_defense_physical": {
+    "message": "Physical"
+  },
+  "movement_heal": {
+    "message": "Heal"
+  },
+  "movement_description_unknown": {
+    "message": "?"
+  },
+  "movement_e": {
+    "message": "E"
+  },
+  "movement_flood_a_description": {
+    "message": "Performs several slashes of water jet producing {0} damage {1} {2}"
+  },
+  "movement_flood_e_description": {
+    "message": "Generates a shield of water that increases Defense {0} points"
+  },
+  "movement_flood_i_description": {
+    "message": "Drops a tear of purifying water that heals {0} {1} points"
+  },
+  "movement_flood_o_description": {
+    "message": "Soaks an ally in magical water that increases their Attack {0} points for {2} seconds"
+  },
+  "movement_flood_u_description": {
+    "message": "Invokes magical water creatures that hit the target dealing {0} damage {1} {2}"
+  },
+  "movement_flood_ultimate_description": {
+    "message": "Produces a mega whirlpool of raging waters producing {0} damage {1} {2}"
+  },
+  "movement_frost_a_description": {
+    "message": "Launches slashes of ice dealing {0} damage {1} {2}"
+  },
+  "movement_frost_e_description": {
+    "message": "Generates an ice shield that increases Defense {0} points"
+  },
+  "movement_frost_i_description": {
+    "message": "Falls a giant ice floe dealing {0} damage {1} {2}"
+  },
+  "movement_frost_o_description": {
+    "message": "Invokes small magical stalactites that generate damage over time: {0} {1} {2} from 1 to 10 times"
+  },
+  "movement_frost_u_description": {
+    "message": "Blocks of ice fall and hit hard producing {0} damage {1} {2}"
+  },
+  "movement_frost_ultimate_description": {
+    "message": "Forms a large iceberg that causes {0} damage {1} {2}"
+  },
+  "movement_i": {
+    "message": "I"
+  },
+  "movement_normal_a_description": {
+    "message": "Two hits performing {0} {1} {2}"
+  },
+  "movement_normal_e_description": {
+    "message": "Provides a shield of will that increases defenses: {0} {2} {1} {3}"
+  },
+  "movement_normal_i_description": {
+    "message": "Generates a powerful aura of willpower that heals {0} {1} points"
+  },
+  "movement_normal_o_description": {
+    "message": "Influences will to allies by increasing their Attack and Magic Power {0} and {1} points for {4} seconds"
+  },
+  "movement_normal_u_description": {
+    "message": "Strikes with the tentacles attacking 10 times ({0} {2} {4}). Finally, it gives a powerful final blow ({1} {3} {5})"
+  },
+  "movement_normal_ultimate_description": {
+    "message": "Releases an explosive power producing {0} damage {1} {2}"
+  },
+  "movement_o": {
+    "message": "O"
+  },
+  "movement_shade_a_description": {
+    "message": "Creates an orb of darkness that hits dealing {0} damage {1} {2}"
+  },
+  "movement_shade_e_description": {
+    "message": "Generates a shield of darkness that increases Defense and Magic Resistance {0} points"
+  },
+  "movement_shade_i_description": {
+    "message": "Launches a flame of darkness that curses the target for {0} damage {2} {4}, and lowers its magic power {1} points for {5} seconds (cumulative)"
+  },
+  "movement_shade_o_description": {
+    "message": "Creates cursed orbs that impregnate the targets soul, lowering all stats {0}, {1}, {2} and {3} points for {8} seconds."
+  },
+  "movement_shade_u_description": {
+    "message": "Invokes a portal to the plane of darkness through which dark torrents pour out producing {0} damage {1} {2}"
+  },
+  "movement_shade_ultimate_description": {
+    "message": "Releases a blast of dark magic dealing {0} damage {1} {2}"
+  },
+  "movement_shine_a_description": {
+    "message": "Generates a set of sharp flashes that produce {0} damage {1} {2}"
+  },
+  "movement_shine_e_description": {
+    "message": "Creates a shield of light that increases Defense and Magic Resistance {0} points"
+  },
+  "movement_shine_i_description": {
+    "message": "Emits a light that heals the soul {0} {1} points"
+  },
+  "movement_shine_o_description": {
+    "message": "Invokes an ascending circle of light that encourages an allys soul by raising all stats {0}, {1}, {2} and {3} points for {8} seconds."
+  },
+  "movement_shine_u_description": {
+    "message": "Throws small, abundant magical glows that pierce through the target and causes {0} damage {1} {2}"
+  },
+  "movement_shine_ultimate_description": {
+    "message": "Emits a flash of purifying light producing {0} damage {1} {2}"
+  },
+  "movement_sound_a_description": {
+    "message": "Slapping! Percussion power attacks you with {0} damage {1} {2}"
+  },
+  "movement_sound_e_description": {
+    "message": "Music protects you with a special aura of {0} for Magic Resistance"
+  },
+  "movement_sound_i_description": {
+    "message": "A graceful melody that manages to exalt spirits grants {0} and {1} points to Defense and magic Resistance for {4} seconds"
+  },
+  "movement_sound_o_description": {
+    "message": "A rhythm that encourages dancing and increases Attack and Magic Power {0} and {1} points for {4} seconds"
+  },
+  "movement_sound_u_description": {
+    "message": "A musical blast that goes deep! Produces {0} damage {1} {2}"
+  },
+  "movement_sound_ultimate_description": {
+    "message": "A vigorous musical surge that lashes out with {0} damage {1} {2}"
+  },
+  "movement_spark_a_description": {
+    "message": "It hits with its tentacles charged with stamina causing {0} damage {1} {2}"
+  },
+  "movement_spark_e_description": {
+    "message": "Creates an electric shield that increases Defense {0} points and Magic Resistance {1} points"
+  },
+  "movement_spark_i_description": {
+    "message": "A series of lightning strikes hit the target and cause {0} damage {1} {2}"
+  },
+  "movement_spark_o_description": {
+    "message": "Set of voltaic orbs are positioned over an ally and create electric fields that boost Magic Power {0} points for {2} seconds. These can be repeated over time from 4 to 10 times every 5 seconds."
+  },
+  "movement_spark_u_description": {
+    "message": "Generates a large discharge of current that pierces its target causing {0} damage {2} {4}. For each use the user receives a penalty to its Magic Power of {1} for {5} seconds."
+  },
+  "movement_spark_ultimate_description": {
+    "message": "An overloaded energy power explodes in an electro-magnetic shock wave generating {0} damage {1} {2}"
+  },
+  "movement_stone_a_description": {
+    "message": "Hit the target with hard rocks producing {0} damage {1} {2}"
+  },
+  "movement_stone_e_description": {
+    "message": "Erect a gigantic stone wall that increases Defense {0} points."
+  },
+  "movement_stone_i_description": {
+    "message": "Summons razor-sharp magic gems that pierce the target producing {0} damage {1} {2}"
+  },
+  "movement_stone_o_description": {
+    "message": "Generates a shield of magic gems that increase Magic Resistance {0} points for {2} seconds"
+  },
+  "movement_stone_u_description": {
+    "message": "Throws a large rock with the force equal to that of a meteorite. It explodes on impact causing {0} damage {1} {2}"
+  },
+  "movement_stone_ultimate_description": {
+    "message": "A series of massive earthquakes alter the battlefield causing the target {0} damage {1} {2}"
+  },
+  "movement_storm_a_description": {
+    "message": "A sharp wind lashes out at the target dealing {0} damage {1} {2}"
+  },
+  "movement_storm_e_description": {
+    "message": "The wind swirls around the jellyfish to create a shield of gusts that grants {0} Defense"
+  },
+  "movement_storm_i_description": {
+    "message": "Invokes light, strange breezes that cause weakness. Defense and magic resistance decrease {0} and {1} points during {4} seconds"
+  },
+  "movement_storm_o_description": {
+    "message": "Generates from 1 to 10 whirlwinds that hit the one it envelops with {0} damage {1} {2}"
+  },
+  "movement_storm_u_description": {
+    "message": "Attacks by creating a powerful whirlwind that lashes out causing {0} damage {1} {2}"
+  },
+  "movement_storm_ultimate_description": {
+    "message": "The power of a hurricane unleashes against the target, dealing {0} damage {1} {2}"
+  },
+  "movement_dread_a_description": {
+    "message": "Use the tentacles to launch a scratch with a powerful poison producing {0} damage {1} {2}."
+  },
+  "movement_dread_e_description": {
+    "message": "Channel power to generate an orb of protection that grants a Defensive or Magic shield of {0} points depending on the state of the Corruption (+ Info in the O)."
+  },
+  "movement_dread_i_description": {
+    "message": "Summons a series of spectral eyes that intimidate the target by lowering all of its stats {0}, {1}, {2} and {3} points for {8} seconds."
+  },
+  "movement_dread_o_description": {
+    "message": "Alters the user Corruption to increase defenses to other elements {0} points (cumulative). If the movement is used against a Corruption Elemental, it alternates its combat statistics: Attack \\u2B64 Magic Power and Defense \\u2B64 Magic Resistance."
+  },
+  "movement_dread_u_description": {
+    "message": "A large spectral eye torments the soul of the target causing {0} damage {1} {2}. If the Corruption's status is altered (+ Info in the O) it increases its power considerably."
+  },
+  "movement_dread_ultimate_description": {
+    "message": "Spectral Corruption manifests itself physically and attacks its target with a devastating beam causing {0} damage {1} {2}."
+  },
+  "movement_type_buff": {
+    "message": "Buff"
+  },
+  "movement_type_damage": {
+    "message": "Damage"
+  },
+  "movement_type_de_buff": {
+    "message": "De-buff"
+  },
+  "movement_type_heal": {
+    "message": "Heal"
+  },
+  "movement_type_shield": {
+    "message": "Shield"
+  },
+  "movement_type_unknown": {
+    "message": "?"
+  },
+  "movement_u": {
+    "message": "U"
+  },
+  "movement_ultimate": {
+    "message": "Ultimate"
+  },
+  "movement_unknown": {
+    "message": "?"
+  },
+  "raid_role_healer": {
+    "message": "Healer"
+  },
+  "raid_role_leader": {
+    "message": "Leader"
+  },
+  "raid_role_unknown": {
+    "message": "Unknown"
+  },
+  "raid_role_warrior": {
+    "message": "Warrior"
+  },
+  "raid_score_a": {
+    "message": "A"
+  },
+  "raid_score_b": {
+    "message": "B"
+  },
+  "raid_score_c": {
+    "message": "C"
+  },
+  "raid_score_d": {
+    "message": "D"
+  },
+  "raid_score_e": {
+    "message": "E"
+  },
+  "raid_score_s_plus": {
+    "message": "S+"
+  },
+  "raid_score_s": {
+    "message": "S"
+  },
+  "raid_status_defeat": {
+    "message": "Defeat"
+  },
+  "raid_status_unknown": {
+    "message": "Unknown"
+  },
+  "raid_status_victory": {
+    "message": "Victory"
+  },
+  "raid_type_normal": {
+    "message": "Normal"
+  },
+  "raid_type_shiny": {
+    "message": "Shiny"
+  },
+  "raid_type_unknown": {
+    "message": "Unknown"
+  },
+  "skin_0": {
+    "message": "Moon"
+  },
+  "skin_10": {
+    "message": "Musician Sonatta"
+  },
+  "skin_11": {
+    "message": "Santa Moon"
+  },
+  "skin_12": {
+    "message": "Queen Frost"
+  },
+  "skin_13": {
+    "message": "Rainbow Frost"
+  },
+  "skin_14": {
+    "message": "Glace"
+  },
+  "skin_15": {
+    "message": "Pumpkin Queen"
+  },
+  "skin_16": {
+    "message": "Queen Of Fire"
+  },
+  "skin_17": {
+    "message": "Diamond Queen"
+  },
+  "skin_18": {
+    "message": "Broken Diamond"
+  },
+  "skin_19": {
+    "message": "Commander Blaze"
+  },
+  "skin_1": {
+    "message": "Captain Ignis"
+  },
+  "skin_20": {
+    "message": "Prestige Commander Blaze"
+  },
+  "skin_21": {
+    "message": "Demon Blaze"
+  },
+  "skin_22": {
+    "message": "Aeros"
+  },
+  "skin_23": {
+    "message": "Chief Storm"
+  },
+  "skin_24": {
+    "message": "Prestige Chief Storm"
+  },
+  "skin_25": {
+    "message": "Sheriff Storm"
+  },
+  "skin_26": {
+    "message": "Aura the diva"
+  },
+  "skin_27": {
+    "message": "Prestige Aura the diva"
+  },
+  "skin_28": {
+    "message": "Shirly"
+  },
+  "skin_29": {
+    "message": "Symphony"
+  },
+  "skin_2": {
+    "message": "Private Azure"
+  },
+  "skin_30": {
+    "message": "Grand King Flood"
+  },
+  "skin_31": {
+    "message": "Grand Queen Charm"
+  },
+  "skin_32": {
+    "message": "Prestige Grand Queen Charm"
+  },
+  "skin_33": {
+    "message": "Sugar Crush"
+  },
+  "skin_34": {
+    "message": "Apprentice Grine"
+  },
+  "skin_35": {
+    "message": "Master Stone"
+  },
+  "skin_36": {
+    "message": "Prestige Master Stone"
+  },
+  "skin_37": {
+    "message": "Executive Stonks"
+  },
+  "skin_38": {
+    "message": "Master Grine"
+  },
+  "skin_39": {
+    "message": "Lady Bloom"
+  },
+  "skin_3": {
+    "message": "Leaf"
+  },
+  "skin_40": {
+    "message": "Unleashed Bloom"
+  },
+  "skin_41": {
+    "message": "Prestige Lady Bloom"
+  },
+  "skin_42": {
+    "message": "Doom"
+  },
+  "skin_43": {
+    "message": "Pride Moon"
+  },
+  "skin_44": {
+    "message": "The Imposter"
+  },
+  "skin_45": {
+    "message": "Death Flower"
+  },
+  "skin_46": {
+    "message": "The Prestige Imposter"
+  },
+  "skin_47": {
+    "message": "Reaper"
+  },
+  "skin_48": {
+    "message": "Mastery Leaf"
+  },
+  "skin_49": {
+    "message": "Ohm"
+  },
+  "skin_4": {
+    "message": "Hema"
+  },
+  "skin_50": {
+    "message": "Dread"
+  },
+  "skin_51": {
+    "message": "Spark"
+  },
+  "skin_52": {
+    "message": "Prestige Spark"
+  },
+  "skin_53": {
+    "message": "Dynamo"
+  },
+  "skin_54": {
+    "message": "Classic Moon"
+  },
+  "skin_55": {
+    "message": "Volt"
+  },
+  "skin_56": {
+    "message": "Overvolt"
+  },
+  "skin_57": {
+    "message": "Prestige Volt"
+  },
+  "skin_58": {
+    "message": "???"
+  },
+  "skin_5": {
+    "message": "Healery"
+  },
+  "skin_6": {
+    "message": "Nerau"
+  },
+  "skin_7": {
+    "message": "Translucent"
+  },
+  "skin_8": {
+    "message": "Bloody Translucent"
+  },
+  "skin_9": {
+    "message": "Amarantha"
+  },
+  "skin_description_0": {
+    "message": "Moon is an Elementless jellyfish that accompanies the protagonists of the story. Not much is known about her or what Elemental domain she belongs to"
+  },
+  "skin_description_10": {
+    "message": "Sonatta Music is a Sound elemental jellyfish. She belongs to the group of itinerant artists TentaSyncs. She is the main instrumentalist of the vocalist and leader of the group"
+  },
+  "skin_description_11": {
+    "message": "Santa Moon is a non-canonical variant of Moon that can be obtained during the Christmas season"
+  },
+  "skin_description_12": {
+    "message": "Queen Frost is an elemental Ice jellyfish. She is the ruler of the Ice domain \"Ice Summit\". She possesses a great and cold determination and always gives her all to protect her kingdom and loved ones. Her personality is sometimes a bit unstable and she gets carried away by emotions"
+  },
+  "skin_description_13": {
+    "message": "Rainbow Frost is a non-canonical variant of Queen Frost"
+  },
+  "skin_description_14": {
+    "message": "Glace is an Ice elemental jellyfish. He was a citizen of Ice Summit, actually killed by Pumpkin Queens army during the invasion of Chapter 1 and later reincarnated as a Translucent"
+  },
+  "skin_description_15": {
+    "message": "Pumpkin Queen is a Flora elemental jellyfish. It is not known where she comes from and the little that is known about her is that a new species of jellyfish called \"Jailers\" has the ability to imprison inside any jellyfish and take advantage of its power. In Chapter 1, she invaded the Ice domain, devastating everything in her path, and later the Fire domain. There she managed to imprison Commander Blaze and was able to acquire the Fire Queen form, which could use the Fire Gem at will. At the end of Act 2 of Chapter 1, Pumpkin was defeated by the protagonists, which caused her death due to the overload of her power"
+  },
+  "skin_description_16": {
+    "message": "The Queen Of Fire is a fire elemental jellyfish. It is the second form that Pumpkin acquires by activating Commander Blazes Fire Gem that she has imprisoned. Her power is quite unstable and given her original nature of Flora, the power ends up emaciated her too much, costing her life at the end of Act 2 of Chapter 1"
+  },
+  "skin_description_17": {
+    "message": "The Diamond Queen is a non-canonical variant of the Pumpkin Queen"
+  },
+  "skin_description_18": {
+    "message": "Broken Diamond is a non-canonical variant of The Fire Queen"
+  },
+  "skin_description_19": {
+    "message": "Commander Blaze is a Fire elemental jellyfish. He is the ruler of the Fire domain \"The Burning Bastion\". He is fiery-hearted and knows how to value the potential of his allies and friends. In Chapter 1 he was imprisoned by Queen Pumpkin, during which time he was in a state of catharsis. However, during his captivity, he was able to sense the feelings and thoughts of his captor. At the end of Chapter 1, he was released by the protagonists and became their mentor to prepare them for the Elemental Crusade Mission"
+  },
+  "skin_description_1": {
+    "message": "Captain Ignis is a Fire elemental jellyfish. He is the second in command in the Fire domain \"The Burning Bastion\". In spite of having a high position, he is not very brave"
+  },
+  "skin_description_20": {
+    "message": "The Prestige Blaze Commander is a non-canonical variant of the Blaze Commander. It is an exclusive reward when acquiring S Rank in the invasion"
+  },
+  "skin_description_21": {
+    "message": "Demon Blaze is a non-canonical variant of Commander Blaze"
+  },
+  "skin_description_22": {
+    "message": "Aeros is a Wind elemental jellyfish. He belongs to the Tribe of the Wind domain \"Storm Heights\". He is the main errand boy of his Chieftain, for whom he feels passion for him. He only knows how to carry out his orders regardless of his nature and ethics"
+  },
+  "skin_description_23": {
+    "message": "Chief Storm is a Wind elemental jellyfish. He is the leader of the Wind domain \"Storm Heights\". As the recently appointed Heir and Holder of the Wind Gem of his recently deceased Father the former Chieftain, he has acquired a highly egomaniacal and absurdly violent personality; however, this has not been frowned upon by the natives of his Tribe. On the contrary, they revere him and this does nothing more than boost his ego constantly, and he comes to believe that he is the most powerful jellyfish in Aqualia."
+  },
+  "skin_description_24": {
+    "message": "The Prestige Chief Storm is a non-canonical variant of the Chief Storm. It is an exclusive reward when acquiring S Rank in the invasion."
+  },
+  "skin_description_25": {
+    "message": "Sheriff Storm is a non-canonical variant of Chief Storm"
+  },
+  "skin_description_26": {
+    "message": "Aura the diva is a Sound elemental jellyfish. She is the holder of the Gem of Sound and is the leader of the traveling troupe of performers TentaSyncs. Aura along with Sonatta are the only sound jellyfish in the world of Aqualia, since the Gem of Sound grants eternal life to its holder."
+  },
+  "skin_description_27": {
+    "message": "Prestige Aura the Diva is a non-canonical variant of Aura. It is an exclusive reward when acquiring S Rank in the invasion."
+  },
+  "skin_description_28": {
+    "message": "Shirly is a non-canonical variant of Aura"
+  },
+  "skin_description_29": {
+    "message": "Symphony is a non-canonical variant of Sonatta"
+  },
+  "skin_description_2": {
+    "message": "Private Azure is a Water elemental jellyfish. He is newly enlisted in the Sapphire Imperial army. He is deeply rooted in the values of the Water domain and his honor and loyalty to the crown made him one of the best in his class"
+  },
+  "skin_description_30": {
+    "message": "Flood is the Great King of the Sapphire Empire. In addition to possessing the Water Gem, he is the second long-time monarch of the Empire. From a very young age he has always been trained in the traditions of the empire and has always been known to be very courteous and affable to his kith and kin. Everyone respects and adores Flood, although not everyone thinks the same..."
+  },
+  "skin_description_31": {
+    "message": "Charm is the Great Queen of the Sapphire Empire. She is the Possessor of the Gem of Love which is divided into two parts. Rumors indicate that her Gem is actually meant to have two Holders who both share a great love. Charm is rather reserved, firm and with a rather fiery character. Her background and past are somewhat uncertain, when she was young she was found without memories, unconscious and without Elemental Power in the territories of the Empire, the monarch at the time allowed one of the royal families to adopt her. With the passage of time she unwittingly awakened the power of the Gem of Love, which never came to have a Holder. And since then she has been its Possessor until today, acquiring great renown within the Empire and Aqualia in general. Flood felt a love at first sight for her and when he was named King he proposed marriage to her, which she could not avoid rejecting..."
+  },
+  "skin_description_32": {
+    "message": "Prestige Grand Queen Charm is a non-canonical variant of the Grand Queen Charm. It is an exclusive reward when acquiring S Rank in the invasion."
+  },
+  "skin_description_33": {
+    "message": "Sugar Crush is a non-canonical variant of Grand Queen Charm"
+  },
+  "skin_description_34": {
+    "message": "Apprentice Grine is a student of the Yánshí Academy. He is an aspiring possessor of the Gem of the Stone since the Academys annual Grand Tournament will soon be held, the winner of which will become the new Holder. Winning the tournament means inheriting the Gem of the Stone and becoming the next Holder. However, the Gem has never been seen to change its Holder since Master Stone acquired it.... No one has been able to pass the final trial of the Tournament."
+  },
+  "skin_description_35": {
+    "message": "Master Stone is the Holder of the Gem of the Stone. He is the supreme leader of his Geopong domain and at the same time the Director of the Yánshí Academy. He is passionate about botany and spends his free time tending the gardens throughout Geopong. At the academy he is in charge of training his students so that they can become the future Holders in the future. There is no record of any other Stone Gem Holder before him."
+  },
+  "skin_description_36": {
+    "message": "Prestige Master Stone is a non-canonical variant of Master Stone. It is an exclusive reward when acquiring S Rank in the invasion."
+  },
+  "skin_description_37": {
+    "message": "The Stonks Executive is a non-canonical variant of the Master Stone."
+  },
+  "skin_description_38": {
+    "message": "Grine inherited the Gem of the Stone from his Master Grine at the end of Chapter 3 Act 1. By this fact he became the new Holder and his appearance was changed by the properties of the Gem."
+  },
+  "skin_description_39": {
+    "message": "Lady Bloom is the Holder of the Gem of Flora. She is the leader of the domain of the Water Lily Clan. She is highly valued and loved by her Clan members for the great affection and will she has for her people. Some time ago her most valued follower, Leaf newly turned Pumpkin, rebelled against her and her people producing chaos and destruction. Bloom against her will had to fight her to the death. He would have managed to finish her off had it not been for a mysterious jellyfish that appeared out of nowhere at the last moment and somehow, inexplicably to Bloom, managed to prevent him from delivering the final blow. Pumpkin, Bloom having let his guard down caused him a serious injury that caused him to lose an eye and he ended up escaping from the clan. In Chapter 3, his clan, which has not yet fully recovered from Pumpkins attack, is being slaughtered again by a mysterious entity that they have not yet been able to identify. Survivors say that this entity is capable of impersonating another jellyfish as its modus operandi..."
+  },
+  "skin_description_3": {
+    "message": "Leaf is an elemental jellyfish of Flora. She belongs to the Water Lily Clan of the Flora domain. Her personality is very childish, and she loves to make friends"
+  },
+  "skin_description_40": {
+    "message": "This is the appearance that Lady Bloom acquires to enhance her combat abilities. Her two deadly katanas give her an unparalleled destructive power that doesnt even need Elemental power to be a great threat. You can distinguish the scar caused by Pumpkin in the past and the Bloom Gem she uses as a replacement for her eye."
+  },
+  "skin_description_41": {
+    "message": "Prestige Lady Bloom is a non-canonical variant of Lady Bloom. It is an exclusive reward when acquiring S Rank in the invasion."
+  },
+  "skin_description_42": {
+    "message": "Doom is a non-canonical variant of Lady Bloom."
+  },
+  "skin_description_43": {
+    "message": "Pride Moon is a non-canonical variant of Moon that can be obtained during the Pride Month season."
+  },
+  "skin_description_44": {
+    "message": "The Imposter is a jailer jellyfish. He was originally Aeros corrupted by the mysterious power of an unknown jellyfish when he was on his way back to his tribe in Storm Heights. He has the ability to mimic his surroundings and adapt the appearance and voice of other jellyfish to his will. This is his modus operandi that he uses to infiltrate and annihilate his prey and this is the reason why they ended up calling him as The Imposter. During the course of Chapter 3 he has been day after day attacking and terrorizing the villagers of the Water Lily Clan. When Moon and the others arrived he took advantage of this unusual event to impersonate a Sentinel and capture them and others to be taken along with Lady Bloom who was his main objective. He finally achieved his goal and now has the Bloom Gem in his possession."
+  },
+  "skin_description_45": {
+    "message": "Flower of Death is the final transformation of The Imposter after channeling the energy of the Gem of Bloom in a desperate attempt to defeat our protagonists. It is possible that this could go quite wrong because at the least expected moment something inside the Gem awakened..."
+  },
+  "skin_description_46": {
+    "message": "The Prestige Imposter is a non-canonical variant of The Imposter. It is an exclusive reward when acquiring S Rank in the invasion."
+  },
+  "skin_description_47": {
+    "message": "Reaper is a non-canonical variant of The Imposter"
+  },
+  "skin_description_48": {
+    "message": "This is Leafs true appearance. It can only be obtained by exchanging it for mastery points."
+  },
+  "skin_description_49": {
+    "message": "Ohm is an elemental Electric jellyfish. He belongs to Sparks adventurers guild and is Sparks right-hand man. He has a very active and energetic personality, and this is partly influenced by the personality of his idol Spark, whom he imitates and accompanies in all his travels and adventures."
+  },
+  "skin_description_4": {
+    "message": "Hema is a Blood elemental jellyfish. She lives in the Crimson Duchy of the Blood domain. She is a rather solitary jellyfish who lives very much on the fringes of the Duchys aristocratic society"
+  },
+  "skin_description_50": {
+    "message": "Dread is an elemental jellyfish of Fear and possesses the Gem of Horror. Its provenance is unknown as well as its Gem since there is no record of it. What is known, discovered by the protagonists of the story, is that he is responsible for the creation of imprisoning Jellyfish such as Pumpkin Queen and The Imposter."
+  },
+  "skin_description_51": {
+    "message": "Spark is the Holder of the Lightning Gem. He is mostly known for his active and energetic personality, he comes across as a kind of superhero whose interest is to save other jellyfish in distress. To this end Spark founded the Spark Adventurers Guild where he receives missions of all kinds in exchange for money in the style of a bounty hunter. In this Guild, Spark trains other jellyfish to become members and elementals of the Lightning as long as they are akin to Sparks element and way of being."
+  },
+  "skin_description_52": {
+    "message": "Prestige Spark is a non-canonical variant of Spark. It is an exclusive reward when acquiring S Rank in the invasion."
+  },
+  "skin_description_53": {
+    "message": "Dynamo is a non-canonical variant of Spark."
+  },
+  "skin_description_54": {
+    "message": "Classic Moon is the first original Moon design when KurageApp reached version 2.0. Although it does not differ much from the current one, being only the color and shape of the flower on its head and the smaller tentacles different, it is the design that lasted the longest in KurageApp. To commemorate the first birthday of KurageApp version 4.0 we bring back this version of Moon with facial expressions from the old versions. Thanks for the support you have given us!"
+  },
+  "skin_description_55": {
+    "message": "Volt is a jailer jellyfish originally created from Spark in Act 2 of Chapter 4. It was created by accident in an attempt by Dread to corrupt Moon while they were arguing with Spark. The latter managed to realize it just a second earlier by interposing himself at the critical moment. After turning into Volt, he trapped Dread inside him against his will. As a result, Volt is the most powerful jailer jellyfish ever created with two Gems under his control."
+  },
+  "skin_description_56": {
+    "message": "Overvolt is the ultimate evolution of Volt. The corruption within him emerges in its full splendor and can turn the worst nightmares into reality."
+  },
+  "skin_description_57": {
+    "message": "Prestige Volt is a non-canonical variant of Volt. It is an exclusive reward when acquiring S Rank in the invasion."
+  },
+  "skin_description_58": {
+    "message": "???"
+  },
+  "skin_description_5": {
+    "message": "Healery is an elemental jellyfish of Light. Nothing is known about its history or origin"
+  },
+  "skin_description_6": {
+    "message": "Nerau is a Shadow elemental jellyfish. Nothing is known about its history or origin"
+  },
+  "skin_description_7": {
+    "message": "Translucent is Shadow elemental jellyfish. Their origin is unknown, but rumor has it that they are the product of the necromantic resurrection of fallen jellyfish"
+  },
+  "skin_description_8": {
+    "message": "Bloody Translucent is a non-canonical variant of Translucent. Its elemental power is Blood"
+  },
+  "skin_description_9": {
+    "message": "Amarantha is an elemental jellyfish of Love. She stays in the Castle of the Sapphire Empire as the first Maid of the Great Queen Charm. She is a firm and serious jellyfish who would do anything for her Queen"
+  },
+  "skin_description_unknown": {
+    "message": "Entry without data"
+  },
+  "skin_unknown": {
+    "message": "Undiscovered Jellyfish"
+  },
+  "vs_role_healer": {
+    "message": "Healer"
+  },
+  "vs_role_leader": {
+    "message": "Leader"
+  },
+  "vs_role_unknown": {
+    "message": "Unknown"
+  },
+  "vs_role_warrior": {
+    "message": "Warrior"
+  },
+  "vs_status_blue_victory": {
+    "message": "Blue Victory"
+  },
+  "vs_status_red_victory": {
+    "message": "Red Victory"
+  },
+  "vs_status_tie": {
+    "message": "Tie"
+  },
+  "vs_status_unknown": {
+    "message": "Unknown"
+  },
+  "vs_team_blue": {
+    "message": "Blue"
+  },
+  "vs_team_red": {
+    "message": "Red"
+  },
+  "vs_team_unknown": {
+    "message": "Unknown"
+  },
+  "vs_type_casual": {
+    "message": "Casual"
+  },
+  "vs_type_final": {
+    "message": "Final"
+  },
+  "vs_type_normal": {
+    "message": "Normal"
+  },
+  "vs_type_unknown": {
+    "message": "Unknown"
+  }
+}
